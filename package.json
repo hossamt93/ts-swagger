@@ -1,6 +1,6 @@
 {
   "name": "ts-swagger-express",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "swagger integration module in typescript for express",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -8,12 +8,11 @@
     "build": "rm -rf ./lib; tsc -p tsconfig.json",
     "publish-package": "npm run build && npm publish"
   },
-  "keywords": [],
   "author": "Hossam Taha",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/hossamt93/ts-swagger-express.git"
   },
   "files": [
     "lib/"
@@ -28,5 +27,27 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.182"
-  }
+  },
+"keywords": [
+    "swagger",
+    "swagger2",
+    "swagger-ui",
+    "typescript",
+    "expressjs",
+    "express",
+    "api rest",
+    "documentation",
+    "decorator",
+    "generator",
+    "swagger.json",
+    "json",
+    "rest",
+    "annotation",
+    "autogen",
+    "open api"
+],
+"bugs": {
+    "url": "https://github.com/hossamt93/ts-swagger-express.git/issues"
+},
+"homepage": "https://github.com/hossamt93/ts-swagger-express.git#readme"
 }
