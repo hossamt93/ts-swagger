@@ -170,7 +170,6 @@ export class VersionController implements interfaces.Controller {
 
 You can quickly find plenty of examples on [ts-swagger-express](https://github.com/hossamt93/ts-swagger-express.git) github repository.
 
-- [Installation](./examples/installation.md)
 - [Configuration](./examples/configuration.md)
 - [@ApiModel](./examples/api-model.decorator.md)
 - [@ApiModelProperty](./examples/api-model-property.decorator.md)
@@ -182,4 +181,4 @@ You can quickly find plenty of examples on [ts-swagger-express](https://github.c
 - [@ApiOperationDelete](./examples/api-operation-delete.decorator.md)
 
 ## For any questions, suggestions, or feature requests
-- you contanct the author on [Gmail](hossamtaha771@gmail.com)
+- you contanct the author on (hossamtaha771@gmail.com)
