@@ -1,6 +1,6 @@
 {
   "name": "ts-swagger-express",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "swagger integration module in typescript for express",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -33,6 +33,7 @@
     "swagger2",
     "swagger-ui",
     "typescript",
+    "ts",
     "expressjs",
     "express",
     "api rest",
