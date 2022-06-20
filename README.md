@@ -181,4 +181,4 @@ You can quickly find plenty of examples on [ts-swagger-express](https://github.c
 - [@ApiOperationDelete](./examples/api-operation-delete.decorator.md)
 
 ## For any questions, suggestions, or feature requests
-- you contanct the author on (hossamtaha771@gmail.com)
+- you contact the author on (hossamtaha771@gmail.com)
