@@ -27,7 +27,7 @@ const config = require ( "../config.json" );
 const app = express();
 
 
-    // generationg swagger.json on /api-docs/swagger.json
+    // generating swagger.json on /api-docs/swagger.json
     app.use(
         swagger.express({
             definition: {
@@ -163,3 +163,23 @@ export class VersionController implements interfaces.Controller {
 
  - Start your server and test swagger.json on url : /api-docs/swagger.json
  - test your swagger ui on url : /swagger
+
+![](./examples/img/swagger-ui.png)
+
+## Project example
+
+You can quickly find plenty of examples on [ts-swagger-express](https://github.com/hossamt93/ts-swagger-express.git) github repository.
+
+- [Installation](./examples/installation.md)
+- [Configuration](./examples/configuration.md)
+- [@ApiModel](./examples/api-model.decorator.md)
+- [@ApiModelProperty](./examples/api-model-property.decorator.md)
+- [@ApiPath](./examples/api-path.decorator.md)
+- [@ApiOperationGet](./examples/api-operation-get.decorator.md)
+- [@ApiOperationPost](./examples/api-operation-post.decorator.md)
+- [@ApiOperationPut](./examples/api-operation-put.decorator.md)
+- [@ApiOperationPatch](./examples/api-operation-patch.decorator.md)
+- [@ApiOperationDelete](./examples/api-operation-delete.decorator.md)
+
+## For any questions, suggestions, or feature requests
+- you contanct the author on [Gmail](hossamtaha771@gmail.com)
