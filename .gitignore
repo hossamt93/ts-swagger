@@ -110,3 +110,4 @@ lib/
 tmp/
 migration/
 .DS_Store
+types/
